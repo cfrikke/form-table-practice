@@ -37,18 +37,11 @@ function addToTable(data) {
 }
 
 
-function submitForm(){
-    let faln = document.getElementById("faln").value;
-    let email = document.getElementById("email").value;
-    let mdy = document.getElementById("mdy").value;
-
-
-    
-    alert(faln);
-    alert(email);
-    alert(mdy);
+function clearForm() {
+    localStorage.clear();
+    window.open("index.html");
+    window.close();
 }
-
 
 
 // Advanced exploration (not required unless you finish early):
